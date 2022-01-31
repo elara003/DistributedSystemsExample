@@ -4,7 +4,7 @@ using MongoDB.Driver;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Linq;
-using DDD;
+using Boilerplate.DDD;
 
 namespace Boilerplate.Mongo
 {

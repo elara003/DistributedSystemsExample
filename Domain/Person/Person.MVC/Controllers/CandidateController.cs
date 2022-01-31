@@ -13,7 +13,7 @@ namespace Person.MVC.Controllers
     {
         private readonly ILogger<CandidateController> _logger;
 
-        public HomeController(ILogger<CandidateController> logger)
+        public CandidateController(ILogger<CandidateController> logger)
         {
             _logger = logger;
         }

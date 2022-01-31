@@ -1,8 +1,8 @@
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.Repository.deps.json
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.Repository.dll
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.Repository.pdb
-/Users/eddylara/Projects/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/DDD.dll
-/Users/eddylara/Projects/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/DDD.pdb
+/Users/eddylara/Projects/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.DDD.dll
+/Users/eddylara/Projects/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.DDD.pdb
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.AssemblyInfoInputs.cache
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.AssemblyInfo.cs
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.csproj.CoreCompileInputs.cache
@@ -10,3 +10,15 @@
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.dll
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.pdb
 /Users/eddylara/Projects/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.csprojAssemblyReference.cache
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.Repository.deps.json
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.Repository.dll
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.Repository.pdb
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.DDD.dll
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/bin/Debug/netstandard2.0/Boilerplate.DDD.pdb
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.csprojAssemblyReference.cache
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.AssemblyInfoInputs.cache
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.AssemblyInfo.cs
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.csproj.CoreCompileInputs.cache
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.csproj.CopyComplete
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.dll
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/Debug/netstandard2.0/Boilerplate.Repository.pdb

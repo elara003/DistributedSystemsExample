@@ -1,0 +1,9 @@
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/bin/Debug/netstandard2.0/Boilerplate.DDD.deps.json
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/bin/Debug/netstandard2.0/Boilerplate.DDD.dll
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/bin/Debug/netstandard2.0/Boilerplate.DDD.pdb
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/Debug/netstandard2.0/Boilerplate.DDD.csprojAssemblyReference.cache
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/Debug/netstandard2.0/Boilerplate.DDD.AssemblyInfoInputs.cache
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/Debug/netstandard2.0/Boilerplate.DDD.AssemblyInfo.cs
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/Debug/netstandard2.0/Boilerplate.DDD.csproj.CoreCompileInputs.cache
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/Debug/netstandard2.0/Boilerplate.DDD.dll
+/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/Debug/netstandard2.0/Boilerplate.DDD.pdb

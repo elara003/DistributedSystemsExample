@@ -9,8 +9,8 @@
     ".NETStandard,Version=v2.0/": {
       "Boilerplate.Mongo/1.0.0": {
         "dependencies": {
+          "Boilerplate.DDD": "1.0.0",
           "Boilerplate.Repository": "1.0.0",
-          "DDD": "1.0.0",
           "MongoDB.Driver": "2.11.4",
           "NETStandard.Library": "2.0.3"
         },
@@ -120,17 +120,17 @@
           }
         }
       },
+      "Boilerplate.DDD/1.0.0": {
+        "runtime": {
+          "Boilerplate.DDD.dll": {}
+        }
+      },
       "Boilerplate.Repository/1.0.0": {
         "dependencies": {
-          "DDD": "1.0.0"
+          "Boilerplate.DDD": "1.0.0"
         },
         "runtime": {
           "Boilerplate.Repository.dll": {}
-        }
-      },
-      "DDD/1.0.0": {
-        "runtime": {
-          "DDD.dll": {}
         }
       }
     }
@@ -218,12 +218,12 @@
       "path": "system.text.encoding.codepages/4.5.1",
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
     },
-    "Boilerplate.Repository/1.0.0": {
+    "Boilerplate.DDD/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DDD/1.0.0": {
+    "Boilerplate.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IAOUXGw7jBI1ikDCHY0W87OeVnWYhTyozexWVj1/BL1EBATb73EKo4sJmKUEPM/qh6BHOVQ57gtsJGDzWrIVJQ==",
+  "dgSpecHash": "FbihjfNp4rdyCvy1/vUFmD5GfjeP/EjOtZXUJMlFCrfgYYbXEWg095MamvB1mfZClxY1eFaM9q0r1ZVwgUB9Gg==",
   "success": true,
-  "projectFilePath": "/Users/eddylara/Projects/Domain/Person/Person.Repository/Person.Repository.csproj",
+  "projectFilePath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj",
   "expectedPackageFiles": [
     "/Users/eddylara/.nuget/packages/dnsclient/1.3.1/dnsclient.1.3.1.nupkg.sha512",
     "/Users/eddylara/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",

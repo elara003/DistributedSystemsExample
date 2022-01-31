@@ -1,5 +1,5 @@
 ﻿using Person.Model.Contracts;
-using DDD;
+using Boilerplate.DDD;
 
 namespace Person.Model
 {

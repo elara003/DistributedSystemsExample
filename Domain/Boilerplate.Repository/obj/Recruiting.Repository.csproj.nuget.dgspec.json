@@ -26,8 +26,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/eddylara/Projects/Domain/DDD/DDD.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Domain/DDD/DDD.csproj"
+              "/Users/eddylara/Projects/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
+                "projectPath": "/Users/eddylara/Projects/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/eddylara/Projects/Domain/DDD/DDD.csproj": {
+    "/Users/eddylara/Projects/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Domain/DDD/DDD.csproj",
-        "projectName": "DDD",
-        "projectPath": "/Users/eddylara/Projects/Domain/DDD/DDD.csproj",
+        "projectUniqueName": "/Users/eddylara/Projects/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj",
+        "projectName": "Boilerplate.DDD",
+        "projectPath": "/Users/eddylara/Projects/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj",
         "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Domain/DDD/obj/",
+        "outputPath": "/Users/eddylara/Projects/Domain/Boilerplate.DDD/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eddylara/.nuget/NuGet/NuGet.Config"

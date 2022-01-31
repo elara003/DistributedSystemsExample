@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eddylara/Projects/Domain/Person/Person.Model/Person.Model.csproj": {}
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj": {}
   },
   "projects": {
-    "/Users/eddylara/Projects/Domain/DDD/DDD.csproj": {
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Domain/DDD/DDD.csproj",
-        "projectName": "DDD",
-        "projectPath": "/Users/eddylara/Projects/Domain/DDD/DDD.csproj",
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj",
+        "projectName": "Boilerplate.DDD",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj",
         "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Domain/DDD/obj/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "/Users/eddylara/Projects/Domain/Person/Person.Model/Person.Model.csproj": {
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Domain/Person/Person.Model/Person.Model.csproj",
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj",
         "projectName": "Person.Model",
-        "projectPath": "/Users/eddylara/Projects/Domain/Person/Person.Model/Person.Model.csproj",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj",
         "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Domain/Person/Person.Model/obj/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -81,8 +81,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/eddylara/Projects/Domain/DDD/DDD.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Domain/DDD/DDD.csproj"
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj"
               }
             }
           }

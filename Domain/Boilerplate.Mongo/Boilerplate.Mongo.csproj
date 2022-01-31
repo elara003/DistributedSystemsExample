@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
     <ProjectReference Include="..\Boilerplate.Repository\Boilerplate.Repository.csproj" />
-    <ProjectReference Include="..\DDD\DDD.csproj" />
+    <ProjectReference Include="..\Boilerplate.DDD\Boilerplate.DDD.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.11.4" />

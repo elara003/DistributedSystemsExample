@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "Boilerplate.Repository/1.0.0": {
         "dependencies": {
-          "DDD": "1.0.0",
+          "Boilerplate.DDD": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -22,9 +22,9 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "DDD/1.0.0": {
+      "Boilerplate.DDD/1.0.0": {
         "runtime": {
-          "DDD.dll": {}
+          "Boilerplate.DDD.dll": {}
         }
       }
     }
@@ -49,7 +49,7 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "DDD/1.0.0": {
+    "Boilerplate.DDD/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

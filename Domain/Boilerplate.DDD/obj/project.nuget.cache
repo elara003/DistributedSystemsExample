@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KkwwYsfXlVqajGA4m9exG87TaFPZyBvuMTZiGtFcPeFFVgLZyhDVOyPFM210tgyHd0eHgc7PzBpgTLFuadortQ==",
+  "success": true,
+  "projectFilePath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj",
+  "expectedPackageFiles": [
+    "/Users/eddylara/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/eddylara/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

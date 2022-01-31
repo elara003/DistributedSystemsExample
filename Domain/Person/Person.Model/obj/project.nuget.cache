@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ul3XqbyytrLFMDoSRw+JIdVXU57cPX/mO8WF26gxYPle2BHhFP8xj2sQCCxA6XA6pZi4sHVd3g4jkUHrqbruBg==",
+  "dgSpecHash": "2G6atk6xDZlz+pBGCQJ9ptBwh5m0FUc0VydxgJaiNYSOzQdXPyR2v9K+9F4L5fKUvRJt+sgjWXw3XOzucIiuYQ==",
   "success": true,
-  "projectFilePath": "/Users/eddylara/Projects/Domain/Person/Person.Model/Person.Model.csproj",
+  "projectFilePath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj",
   "expectedPackageFiles": [
     "/Users/eddylara/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/eddylara/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"

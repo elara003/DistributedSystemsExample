@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eddylara/Projects/Recruiting/Person/Person.Application.Services/Person.Application.Services.csproj",
+      "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Application.Services/Person.Application.Services.csproj",
       "projectName": "Person.Application.Services",
-      "projectPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Application.Services/Person.Application.Services.csproj",
+      "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Application.Services/Person.Application.Services.csproj",
       "packagesPath": "/Users/eddylara/.nuget/packages/",
-      "outputPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Application.Services/obj/",
+      "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Application.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eddylara/.nuget/NuGet/NuGet.Config"

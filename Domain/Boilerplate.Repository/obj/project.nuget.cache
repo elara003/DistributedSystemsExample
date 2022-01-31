@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9RTzA7R9H80v+RP7W0bj/GU0sUSKrXStDElK7eRCf58q4sYt1PCl9EO6Efzf07p1S8nsZp3Az58ZiW1HTwfFXA==",
+  "dgSpecHash": "xqQBjjUA0zD8+37b8xzak8cbMWuA1pILzzqA9+mwwnsMpRQHYUjN8B35rdpvbZvYC1AzhMVcwuF9O7/nwoolug==",
   "success": true,
-  "projectFilePath": "/Users/eddylara/Projects/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
+  "projectFilePath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
   "expectedPackageFiles": [
     "/Users/eddylara/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/eddylara/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"

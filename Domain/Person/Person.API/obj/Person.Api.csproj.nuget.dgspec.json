@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eddylara/Projects/Recruiting/Person/Person.Api/Person.Api.csproj": {}
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.API/Person.API.csproj": {}
   },
   "projects": {
-    "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj": {
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj",
-        "projectName": "DDD",
-        "projectPath": "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj",
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj",
+        "projectName": "Boilerplate.DDD",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj",
         "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Recruiting/DDD/obj/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -59,14 +59,139 @@
         }
       }
     },
-    "/Users/eddylara/Projects/Recruiting/Person/Person.Api/Person.Api.csproj": {
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Recruiting/Person/Person.Api/Person.Api.csproj",
-        "projectName": "Person.Api",
-        "projectPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Api/Person.Api.csproj",
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj",
+        "projectName": "Boilerplate.Mongo",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj",
         "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Api/obj/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eddylara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj"
+              },
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
+        "projectName": "Boilerplate.Repository",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
+        "packagesPath": "/Users/eddylara/.nuget/packages/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eddylara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.API/Person.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.API/Person.API.csproj",
+        "projectName": "Person.API",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.API/Person.API.csproj",
+        "packagesPath": "/Users/eddylara/.nuget/packages/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -81,11 +206,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/eddylara/Projects/Recruiting/Person/Person.Model/Person.Model.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Model/Person.Model.csproj"
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj"
               },
-              "/Users/eddylara/Projects/Recruiting/Person/Person.Repository/Person.Repository.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Repository/Person.Repository.csproj"
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj"
               }
             }
           }
@@ -141,14 +266,14 @@
         }
       }
     },
-    "/Users/eddylara/Projects/Recruiting/Person/Person.Model/Person.Model.csproj": {
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Recruiting/Person/Person.Model/Person.Model.csproj",
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj",
         "projectName": "Person.Model",
-        "projectPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Model/Person.Model.csproj",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj",
         "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Model/obj/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -163,8 +288,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj"
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj"
               }
             }
           }
@@ -200,14 +325,14 @@
         }
       }
     },
-    "/Users/eddylara/Projects/Recruiting/Person/Person.Repository/Person.Repository.csproj": {
+    "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Recruiting/Person/Person.Repository/Person.Repository.csproj",
+        "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj",
         "projectName": "Person.Repository",
-        "projectPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Repository/Person.Repository.csproj",
+        "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj",
         "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Repository/obj/",
+        "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -222,14 +347,14 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/eddylara/Projects/Recruiting/Person/Person.Model/Person.Model.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/Person/Person.Model/Person.Model.csproj"
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj"
               },
-              "/Users/eddylara/Projects/Recruiting/Boilerplate.Mongo/Boilerplate.Mongo.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/Boilerplate.Mongo/Boilerplate.Mongo.csproj"
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj"
               },
-              "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/Boilerplate.Repository.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/Boilerplate.Repository.csproj"
+              "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj": {
+                "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj"
               }
             }
           }
@@ -248,131 +373,6 @@
               "target": "Package",
               "version": "[2.11.4, )"
             },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/eddylara/Projects/Recruiting/Boilerplate.Mongo/Boilerplate.Mongo.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Recruiting/Boilerplate.Mongo/Boilerplate.Mongo.csproj",
-        "projectName": "Boilerplate.Mongo",
-        "projectPath": "/Users/eddylara/Projects/Recruiting/Boilerplate.Mongo/Boilerplate.Mongo.csproj",
-        "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Recruiting/Boilerplate.Mongo/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/eddylara/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
-            "projectReferences": {
-              "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj"
-              },
-              "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/Boilerplate.Repository.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/Boilerplate.Repository.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
-          "dependencies": {
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.11.4, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/Boilerplate.Repository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/Boilerplate.Repository.csproj",
-        "projectName": "Boilerplate.Repository",
-        "projectPath": "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/Boilerplate.Repository.csproj",
-        "packagesPath": "/Users/eddylara/.nuget/packages/",
-        "outputPath": "/Users/eddylara/Projects/Recruiting/Boilerplate.Repository/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/eddylara/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
-            "projectReferences": {
-              "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj": {
-                "projectPath": "/Users/eddylara/Projects/Recruiting/DDD/DDD.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
-          "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

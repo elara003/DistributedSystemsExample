@@ -164,12 +164,22 @@
           }
         }
       },
+      "Boilerplate.DDD/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Boilerplate.DDD.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boilerplate.DDD.dll": {}
+        }
+      },
       "Boilerplate.Mongo/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Boilerplate.DDD": "1.0.0",
           "Boilerplate.Repository": "1.0.0",
-          "DDD": "1.0.0",
           "MongoDB.Driver": "2.11.4"
         },
         "compile": {
@@ -183,30 +193,20 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "DDD": "1.0.0"
+          "Boilerplate.DDD": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Boilerplate.Repository.dll": {}
         },
         "runtime": {
           "bin/placeholder/Boilerplate.Repository.dll": {}
-        }
-      },
-      "DDD/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/DDD.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DDD.dll": {}
         }
       },
       "Person.Model/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "DDD": "1.0.0"
+          "Boilerplate.DDD": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Person.Model.dll": {}
@@ -575,6 +575,11 @@
         "version.txt"
       ]
     },
+    "Boilerplate.DDD/1.0.0": {
+      "type": "project",
+      "path": "../../Boilerplate.DDD/Boilerplate.DDD.csproj",
+      "msbuildProject": "../../Boilerplate.DDD/Boilerplate.DDD.csproj"
+    },
     "Boilerplate.Mongo/1.0.0": {
       "type": "project",
       "path": "../../Boilerplate.Mongo/Boilerplate.Mongo.csproj",
@@ -584,11 +589,6 @@
       "type": "project",
       "path": "../../Boilerplate.Repository/Boilerplate.Repository.csproj",
       "msbuildProject": "../../Boilerplate.Repository/Boilerplate.Repository.csproj"
-    },
-    "DDD/1.0.0": {
-      "type": "project",
-      "path": "../../DDD/DDD.csproj",
-      "msbuildProject": "../../DDD/DDD.csproj"
     },
     "Person.Model/1.0.0": {
       "type": "project",
@@ -611,11 +611,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eddylara/Projects/Domain/Person/Person.Repository/Person.Repository.csproj",
+      "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj",
       "projectName": "Person.Repository",
-      "projectPath": "/Users/eddylara/Projects/Domain/Person/Person.Repository/Person.Repository.csproj",
+      "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/Person.Repository.csproj",
       "packagesPath": "/Users/eddylara/.nuget/packages/",
-      "outputPath": "/Users/eddylara/Projects/Domain/Person/Person.Repository/obj/",
+      "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Repository/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -630,14 +630,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "/Users/eddylara/Projects/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj": {
-              "projectPath": "/Users/eddylara/Projects/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj"
+            "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj": {
+              "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Mongo/Boilerplate.Mongo.csproj"
             },
-            "/Users/eddylara/Projects/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj": {
-              "projectPath": "/Users/eddylara/Projects/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj"
+            "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj": {
+              "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj"
             },
-            "/Users/eddylara/Projects/Domain/Person/Person.Model/Person.Model.csproj": {
-              "projectPath": "/Users/eddylara/Projects/Domain/Person/Person.Model/Person.Model.csproj"
+            "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj": {
+              "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Person/Person.Model/Person.Model.csproj"
             }
           }
         }

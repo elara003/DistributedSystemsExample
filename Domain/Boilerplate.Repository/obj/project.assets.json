@@ -26,14 +26,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "DDD/1.0.0": {
+      "Boilerplate.DDD/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/DDD.dll": {}
+          "bin/placeholder/Boilerplate.DDD.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DDD.dll": {}
+          "bin/placeholder/Boilerplate.DDD.dll": {}
         }
       }
     }
@@ -183,15 +183,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "DDD/1.0.0": {
+    "Boilerplate.DDD/1.0.0": {
       "type": "project",
-      "path": "../DDD/DDD.csproj",
-      "msbuildProject": "../DDD/DDD.csproj"
+      "path": "../Boilerplate.DDD/Boilerplate.DDD.csproj",
+      "msbuildProject": "../Boilerplate.DDD/Boilerplate.DDD.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "DDD >= 1.0.0",
+      "Boilerplate.DDD >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eddylara/Projects/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
+      "projectUniqueName": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
       "projectName": "Boilerplate.Repository",
-      "projectPath": "/Users/eddylara/Projects/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
+      "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/Boilerplate.Repository.csproj",
       "packagesPath": "/Users/eddylara/.nuget/packages/",
-      "outputPath": "/Users/eddylara/Projects/Domain/Boilerplate.Repository/obj/",
+      "outputPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.Repository/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eddylara/.nuget/NuGet/NuGet.Config"
@@ -220,8 +220,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "/Users/eddylara/Projects/Domain/DDD/DDD.csproj": {
-              "projectPath": "/Users/eddylara/Projects/Domain/DDD/DDD.csproj"
+            "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj": {
+              "projectPath": "/Users/eddylara/Projects/DistributedSystemsExample/Domain/Boilerplate.DDD/Boilerplate.DDD.csproj"
             }
           }
         }
