@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Boilerplate.Mongo\Boilerplate.Mongo.csproj" />
+    <ProjectReference Include="..\Person.Model\Person.Model.csproj" />
+    <ProjectReference Include="..\..\Boilerplate.Repository\Boilerplate.Repository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.4" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+</Project>
